@@ -11,6 +11,8 @@
 		2F49897D2AB201B800862439 /* TestiOSFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4989722AB201B800862439 /* TestiOSFramework.framework */; };
 		2F4989822AB201B800862439 /* TestiOSFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4989812AB201B800862439 /* TestiOSFrameworkTests.swift */; };
 		2F4989832AB201B800862439 /* TestiOSFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F4989752AB201B800862439 /* TestiOSFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F4989A32AB2040500862439 /* secondSwiftFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4989A22AB2040500862439 /* secondSwiftFile.swift */; };
+		2F4989A42AB2040500862439 /* testFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4989A12AB2040500862439 /* testFramework.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		2F4989762AB201B800862439 /* TestiOSFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TestiOSFramework.docc; sourceTree = "<group>"; };
 		2F49897C2AB201B800862439 /* TestiOSFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestiOSFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4989812AB201B800862439 /* TestiOSFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestiOSFrameworkTests.swift; sourceTree = "<group>"; };
+		2F4989A12AB2040500862439 /* testFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testFramework.swift; sourceTree = "<group>"; };
+		2F4989A22AB2040500862439 /* secondSwiftFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondSwiftFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				2F4989752AB201B800862439 /* TestiOSFramework.h */,
+				2F4989A22AB2040500862439 /* secondSwiftFile.swift */,
+				2F4989A12AB2040500862439 /* testFramework.swift */,
 				2F4989762AB201B800862439 /* TestiOSFramework.docc */,
 			);
 			path = TestiOSFramework;
@@ -195,6 +201,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F4989772AB201B800862439 /* TestiOSFramework.docc in Sources */,
+				2F4989A32AB2040500862439 /* secondSwiftFile.swift in Sources */,
+				2F4989A42AB2040500862439 /* testFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +229,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -284,6 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -402,6 +412,7 @@
 		2F49898A2AB201B800862439 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4SZ63CBFZ8;
@@ -418,6 +429,7 @@
 		2F49898B2AB201B800862439 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4SZ63CBFZ8;
